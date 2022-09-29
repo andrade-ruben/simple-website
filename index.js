@@ -2,9 +2,8 @@ function sendMail() {
   var params = {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
-    message: document.getElementById("message").value,
     tel: document.getElementById("tel").value,
-
+    message: document.getElementById("message").value,
   };
 
   const serviceID = "service_rvdztkk";
